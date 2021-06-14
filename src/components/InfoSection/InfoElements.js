@@ -11,6 +11,25 @@ export const InfoContainer = styled.div`
   }
 `;
 
+export const InfoContainer2 = styled.div`
+  color: #fff;
+  padding-top: 50px;
+  background: #e1e1fa;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+  }
+`;
+
+export const InfoContainer3 = styled.div`
+  color: #fff;
+  padding-top: 50px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 80px;
+  }
+`;
+
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
@@ -48,6 +67,17 @@ export const Column1 = styled.div`
 
   @media screen and (max-width: 768px) {
     padding-left: 15px;
+  }
+`;
+
+export const ColumnCenter = styled.div`
+  padding-left: 100px;
+  grid-area: col1;
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -114,6 +144,23 @@ export const TopLine2 = styled.p`
     margin-bottom: 30px;
   }
 `;
+export const TopLine3 = styled.p`
+  color: #000;
+  font-size: 18px;
+  font-weight: 700px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0 33%;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+`;
 
 export const SubTitle = styled.p`
   max-width: 440px;
@@ -130,6 +177,25 @@ export const SubTitle = styled.p`
     letter-spacing: 1px;
     font-size: 14px;
     line-height: 36px;
+  }
+`;
+
+export const SubTitleCenter = styled.p`
+  max-width: 440px;
+  display: flex;
+  padding-right: 50px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-family: "TsukuARdGothic-Regular", sans-serif;
+  opacity: 0.6;
+
+  @media screen and (max-width: 768px) {
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0 13%;
   }
 `;
 

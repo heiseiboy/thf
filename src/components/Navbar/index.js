@@ -13,11 +13,16 @@ import {
 } from "./NavbarElements";
 
 import THL from "../images/thf-logo2.jpg";
-
 import { FaBars } from "react-icons/fa";
+
+import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -39,7 +44,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           {/* <NavLogo>T-HOPE</NavLogo> */}
-          <Logo src={THL} alt="logo" />
+          <Logo src={THL} alt="logo" onClick={toggleHome} />
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>

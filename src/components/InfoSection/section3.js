@@ -1,13 +1,13 @@
 import React from "react";
 import {
-  InfoContainer,
+  InfoContainer3,
   InfoRow,
   InfoWrapper,
-  Column1,
+  ColumnCenter,
   Column3,
   TextWrapper,
-  TopLine2,
-  SubTitle,
+  TopLine3,
+  SubTitleCenter,
   Img3,
   ImgWrap3,
 } from "./InfoElements";
@@ -23,21 +23,21 @@ const InfoSection3 = ({
 }) => {
   return (
     <>
-      <InfoContainer id={id}>
+      <InfoContainer3 id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1>
+            <ColumnCenter>
               <TextWrapper>
-                <TopLine2>{topLine}</TopLine2>
-                <SubTitle>
+                <TopLine3>{topLine}</TopLine3>
+                <SubTitleCenter>
                   収穫したホーリーバジルは特製の棚に保存して乾燥させます
                   <br />
                   二週間ほど乾燥させていきます
                   <br />
-                  色と匂いが最高のドライバジルの完成です
-                </SubTitle>
+                  色と匂いが最高のドライバジルの完成はすぐそこです
+                </SubTitleCenter>
               </TextWrapper>
-            </Column1>
+            </ColumnCenter>
             <Column3>
               <ImgWrap3>
                 <Img3 src={img} alt={alt} />
@@ -46,7 +46,7 @@ const InfoSection3 = ({
             </Column3>
           </InfoRow>
         </InfoWrapper>
-      </InfoContainer>
+      </InfoContainer3>
     </>
   );
 };

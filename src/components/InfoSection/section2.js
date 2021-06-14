@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  InfoContainer,
+  InfoContainer2,
   InfoRow,
   InfoWrapper,
   Column1,
@@ -23,7 +23,7 @@ const InfoSection2 = ({
 }) => {
   return (
     <>
-      <InfoContainer id={id}>
+      <InfoContainer2 id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
@@ -44,7 +44,7 @@ const InfoSection2 = ({
             </Column2>
           </InfoRow>
         </InfoWrapper>
-      </InfoContainer>
+      </InfoContainer2>
     </>
   );
 };
