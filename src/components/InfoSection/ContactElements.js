@@ -2,12 +2,15 @@ import styled from "styled-components";
 
 export const ContactContainer = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 24px;
+  height: 50vh;
+
   @media screen and (max-width: 768px) {
-    align-items: center;
-    justify-content: center;
     font-size: 14px;
-    letter-spacing: 4px;
-    height: 50vh;
   }
 `;
 
@@ -21,10 +24,16 @@ export const ContactWrapper = styled.div`
     height: 100%;
   }
 `;
-export const Text = styled.p`
-  font-size: 24px;
+export const TopText = styled.p`
+  font-size: 32px;
   padding-bottom: 10%;
+  font-weight: 200;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
 `;
+
 export const Icon = styled.div`
   display: flex;
   flex-direction: column;

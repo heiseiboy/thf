@@ -100,12 +100,21 @@ export const WebsiteRights = styled.small`
 
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
+  justify-content: space-around;
+  width: 480px;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+  }
 `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
-  font-size: 24px;
+  font-size: 32px;
+
+  @media screen and (max-width: 768px) {
+    margin: 0 7%;
+  }
 `;

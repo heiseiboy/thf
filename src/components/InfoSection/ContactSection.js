@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Text,
+  TopText,
   ContactContainer,
   ContactWrapper,
   Icon,
@@ -11,9 +11,9 @@ import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
 
 const ContactSection = () => {
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <ContactWrapper>
-        <Text>CONTACT</Text>
+        <TopText>CONTACT</TopText>
         <Icon>
           <AiOutlineMail />
         </Icon>

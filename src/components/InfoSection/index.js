@@ -2,7 +2,7 @@ import React from "react";
 import {
   InfoContainer,
   InfoRow,
-  InfoWrapper,
+  InfoWrapper1,
   Column1,
   Column2,
   TextWrapper,
@@ -28,7 +28,7 @@ const InfoSection = ({
   return (
     <>
       <InfoContainer id={id}>
-        <InfoWrapper>
+        <InfoWrapper1>
           <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
@@ -57,7 +57,7 @@ const InfoSection = ({
               </ImgWrap>
             </Column2>
           </InfoRow>
-        </InfoWrapper>
+        </InfoWrapper1>
       </InfoContainer>
     </>
   );

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
-import Top2 from "../images/top2.jpg";
+import Top2 from "../images/purple.jpg";
 import Top from "../images/169.jpg";
 
 export const HeroContainer = styled.div`
@@ -35,15 +35,20 @@ export const HeroBg = styled.div`
 `;
 
 export const ImgBg = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 85%;
+  margin: 5% 15%;
+
   -object-fit: cover;
   object-fit: cover;
-  background-image: url(${Top});
-  background-size: cover;
+  background-image: url(${Top2});
   background-repeat: no-repeat;
+  background-size: cover;
 
   @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+    margin: 0;
     -object-fit: cover;
     object-fit: cover;
     background-image: url(${Top2});
@@ -72,12 +77,14 @@ export const HeroH1 = styled.h1`
   color: #fff;
   font-size: 48px;
   text-align: center;
+  font-family: "TsukuARdGothic-Regular", sans-serif;
+
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 24px;
   }
 `;
 

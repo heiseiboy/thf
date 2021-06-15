@@ -4,25 +4,6 @@ export const HomeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "About US",
-  // headline: "",
-  /*description: (
-    <text>
-      埼玉のとある青年たちが第6次産業をはじめました
-      <br />
-      育てているのはホーリーバジル　
-      <br />
-      通称　Tulsi(トゥルシー)
-      <br />
-      聴き慣れない言葉だと思います
-      <br />
-      丁寧に説明しますので是非ご覧ください
-    </text>
-  )
-
-  // 一応このまま出力できるけどReactのレンダリング的に
-  // タグはuppercaseで書けと警告出るから直接書いた
-
-  ,*/
 
   imgStart: false,
   img: require("../images/purple.jpg").default,
@@ -42,7 +23,7 @@ export const HomeObjTwo = {
 };
 
 export const HomeObjThree = {
-  id: "products",
+  id: "method",
   topLine: "METHOD",
   headline: "",
   // description: "We grow Holy Basil to make Holy Basil Tea ",

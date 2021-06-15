@@ -5,6 +5,7 @@ export const InfoContainer = styled.div`
   color: #fff;
   padding-top: 50px;
   background: #fffafa;
+  height: calc(100vh - 80px);
 
   @media screen and (max-width: 768px) {
     padding-top: 80px;
@@ -13,10 +14,12 @@ export const InfoContainer = styled.div`
 
 export const InfoContainer2 = styled.div`
   color: #fff;
-  padding-top: 50px;
-  background: #e1e1fa;
+  background: #ffeeff;
+  margin-top: -100px;
+  padding: 10% 0;
 
   @media screen and (max-width: 768px) {
+    margin-top: 0;
     padding-top: 80px;
   }
 `;
@@ -24,6 +27,7 @@ export const InfoContainer2 = styled.div`
 export const InfoContainer3 = styled.div`
   color: #fff;
   padding-top: 50px;
+  height: calc(100vh - 80px);
 
   @media screen and (max-width: 768px) {
     padding-top: 80px;
@@ -42,7 +46,22 @@ export const InfoWrapper = styled.div`
   justify-content: center;
 
   @media and screen (max-width: 768px) {
-    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+`;
+
+export const InfoWrapper1 = styled.div`
+  display: flex;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  max-width: 1100px;
+
+  justify-content: center;
+
+  @media and screen (max-width: 768px) {
     padding: 0;
     margin: 0;
   }
@@ -58,6 +77,7 @@ export const InfoRow = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    background: none;
   }
 `;
 
@@ -98,7 +118,7 @@ export const Column3 = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100vw;
-    margin-top: -40px;
+
     padding: 0;
   }
 `;
@@ -116,11 +136,12 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: #000;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 700px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  position: relative;
 
   @media screen and (max-width: 768px) {
     letter-spacing: 3px;
@@ -163,12 +184,13 @@ export const TopLine3 = styled.p`
 `;
 
 export const SubTitle = styled.p`
-  max-width: 440px;
+  max-width: 100%;
   display: flex;
   padding-right: 50px;
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 40px;
+  latter-spacing: 2px;
   color: #000;
   font-family: "TsukuARdGothic-Regular", sans-serif;
   opacity: 0.6;
@@ -190,10 +212,11 @@ export const SubTitleCenter = styled.p`
   color: #000;
   font-family: "TsukuARdGothic-Regular", sans-serif;
   opacity: 0.6;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 36px;
     padding: 0 13%;
   }
@@ -201,14 +224,19 @@ export const SubTitleCenter = styled.p`
 
 export const Leaf = styled(FaLeaf)`
   color: #c4e538;
+  position: absolute;
+  top: -2%;
+  right: 50%;
+  width: 50px;
+  height: 50px;
 
   @media screen and (max-width: 768px) {
-    width: 35px;
-    height: 35px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 70px;
-    right: 30px;
-    z-index: 11;
+    top: 0;
+    right: 20px;
+    z-index: 1;
   }
 `;
 
@@ -235,11 +263,11 @@ export const ButtonD = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
-  height: 100%;
-
+  display: none;
   @media screen and (max-width: 768px) {
+    display: flex;
     width: 100%;
+    max-width: 555px;
   }
 `;
 
@@ -269,16 +297,16 @@ export const Img = styled.img`
   @media screen and (max-width: 768px) {
     padding-left: 35%;
     height: 260px;
+    width: 100%;
   }
 `;
 
 export const Img2 = styled.img`
   max-width: 300px;
-  margin: 0 0 10px 0;
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
-    padding-right: 15%;
+    margin: 0;
   }
 `;
 

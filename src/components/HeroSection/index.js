@@ -38,7 +38,7 @@ const HeroSection = () => {
               dark={true}
               onClick={thf}
             >
-              SHOP HERE {hover ? <ArrowForward /> : <ArrowRight />}
+              購入はこちら{hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
         </HeroContent>

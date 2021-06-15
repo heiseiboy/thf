@@ -5,6 +5,7 @@ import {
   InfoWrapper,
   Column1,
   Column2,
+  Column3,
   TextWrapper,
   TopLine2,
   SubTitle,
@@ -39,7 +40,6 @@ const InfoSection2 = ({
             <Column2>
               <ImgWrap2>
                 <Img2 src={img} alt={alt} />
-                <Img2 src={img2} alt="" />
               </ImgWrap2>
             </Column2>
           </InfoRow>
