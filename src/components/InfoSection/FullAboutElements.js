@@ -3,25 +3,27 @@ import styled from "styled-components";
 export const FullAboutContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background: #fffafa;
 
   @media screen and (max-width: 768px) {
     height: 45vh;
+    margin-bottom: 0;
   }
 `;
 
 export const FullAboutWrapper = styled.div`
-  display: flex;
   width: 80%;
-  height: 80%;
-  margin: 3.5% 10%;
+  height: 70%;
+  margin: 8.5% 15%;
   background: #f5f5f5;
   align-items: center;
   flex-direction: column;
 
   @media screen and (max-width: 768px) {
-    margin: 9% 10%;
+    width: 80%;
+    height: 80%;
+    margin: 10% 10%;
   }
 `;
 
@@ -80,7 +82,28 @@ export const Text = styled.p`
   }
 `;
 
-export const Img = styled.img`
+export const ImgWrap = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+export const ImgL = styled.img`
+  display: flex;
+  width: 90%;
+  margin: 5% 5%;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    width: 90%;
+    margin: 5% 5%;
+  }
+`;
+
+export const ImgS = styled.img`
   display: none;
 
   @media screen and (max-width: 768px) {

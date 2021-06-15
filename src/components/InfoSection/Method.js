@@ -15,10 +15,14 @@ import DB from "../images/dryBasil.jpg";
 const Method = () => {
   return (
     <>
-      <MethodContainer id="about">
+      <MethodContainer id="method">
         <MethodWrapper>
           <MethodTop>
-            <TopH1>ホーリーバジル </TopH1>
+            <TopH1>
+              特製の棚で乾燥させ
+              <br />
+              品質を確保
+            </TopH1>
             <TopSub>乾燥させます</TopSub>
           </MethodTop>
           <MethodText>
@@ -27,7 +31,7 @@ const Method = () => {
               <br />
               二週間ほど乾燥させていきます
               <br />
-              色と匂いが最高のドライバジルの完成はすぐそこです
+              色と匂いが最高のドライバジルの完成です
             </Text>
           </MethodText>
         </MethodWrapper>

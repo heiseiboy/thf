@@ -6,6 +6,7 @@ import {
   HeroBtnWrapper,
   HeroContent,
   HeroH1,
+  HeroH2,
   ArrowForward,
   ArrowRight,
 } from "./HeroElements";
@@ -30,6 +31,7 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
           <HeroH1>おうちカフェ</HeroH1>
+          <HeroH2>T-HOPE ファーム</HeroH2>
           <HeroBtnWrapper>
             <Button
               onMouseEnter={onHover}

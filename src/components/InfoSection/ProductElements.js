@@ -1,21 +1,29 @@
 import styled from "styled-components";
 import dryBasil from "../images/dryBasil.jpg";
 
+export const TopContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 10% 0;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin: 0;
+  }
+`;
+
 export const ProductContainer = styled.div`
   display: flex;
-  position: static;
   width: 100%;
-  height: calc(100vh - 80px);
-  background-image: url(${dryBasil});
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 1;
+  height: 70vh;
   opacity: 0.9;
+  padding: 15% 0;
 
   @media screen and (max-width: 768px) {
     background: #fff;
-    background-image: none;
     height: 45vh;
+    padding: 0;
   }
 `;
 
@@ -27,7 +35,7 @@ export const ProductWrapper = styled.div`
   background: transparent;
   align-items: center;
   flex-direction: column;
-  color: #fff;
+  margin: 0 0 0 35%;
 
   @media screen and (max-width: 768px) {
     background: #fff;
@@ -49,9 +57,14 @@ export const ProductTop = styled.div`
 `;
 
 export const TopH1 = styled.h1`
-  font-size: 48px;
-  font-weight: 200;
+  font-size: 32px;
   letter-spacing: 3px;
+  color: #161a12;
+  font-weight: 150;
+
+  span {
+    color: #dda0dd;
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -75,7 +88,7 @@ export const ProductText = styled.div`
   margin: 3% 30%;
 
   @media screen and (max-width: 768px) {
-    padding: 10% 10%;
+    padding: 10% 4%;
     margin: 0;
   }
 `;
@@ -85,6 +98,7 @@ export const Text = styled.p`
   letter-spacing: 3px;
   line-height: 36px;
   opacity: 0.8;
+  color: #000;
 
   @media screen and (max-width: 768px) {
     font-size: 12px;
@@ -96,18 +110,51 @@ export const Text = styled.p`
 export const ProductImg = styled.div`
   display: flex;
   flex-direction: row;
+  width: 50%;
+  height: 50vh;
+  opacity: 0.8;
+  margin: 0 20% 0 0;
 
   @media screen and (max-width: 768px) {
-    display: 55vh;
+    height: auto;
     width: 100vw;
+    margin: 0;
   }
 `;
 
 export const ImgP = styled.img`
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    width: 46vw;
+    margin: 2% 2% 2% 2%;
+  }
+`;
+export const ImgP2 = styled.img`
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    width: 46vw;
+    margin: 2% 2% 2% 2%;
+  }
+`;
+export const ImgP3 = styled.img`
   display: flex;
   width: 100%;
   height: 100%;
   object-fit: contain;
   width: 46vw;
   margin: 2% 2% 2% 2%;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;

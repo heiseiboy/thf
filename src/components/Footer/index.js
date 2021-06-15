@@ -17,6 +17,10 @@ import {
 import { animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
+  const Instagram = () => {
+    window.open("https://www.instagram.com/daisuke_kumehara/");
+  };
+
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -27,15 +31,15 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <SocialIcons>
-              <SocialIconLink onClick aria-label="Instagram">
+              <SocialIconLink onClick={Instagram} aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink onClick aria-label="Twitter">
+              {/* <SocialIconLink onClick aria-label="Twitter">
                 <FaTwitter />
               </SocialIconLink>
               <SocialIconLink onClick aria-label="Youtube">
                 <FaYoutube />
-              </SocialIconLink>
+              </SocialIconLink> */}
             </SocialIcons>
           </FooterLinksWrapper>
         </FooterLinksContainer>

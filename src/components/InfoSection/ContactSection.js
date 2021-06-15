@@ -17,7 +17,7 @@ const ContactSection = () => {
         <Icon>
           <AiOutlineMail />
         </Icon>
-        <p>holybasil.k@gmail.com</p>
+        <p>thope.tulsi@gmail.com</p>
         {/* <Icon>
           <AiFillPhone />
           <p>000-1234-5678</p>

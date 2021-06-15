@@ -10,6 +10,7 @@ import {
   NavBtn,
   NavBtnLink,
   Logo,
+  Text,
 } from "./NavbarElements";
 
 import THL from "../images/thf-logo2.jpg";
@@ -45,21 +46,22 @@ const Navbar = ({ toggle }) => {
         <NavbarContainer>
           {/* <NavLogo>T-HOPE</NavLogo> */}
           <Logo src={THL} alt="logo" onClick={toggleHome} />
+          <Text>T-HOPE ファーム</Text>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">ABOUT</NavLinks>
+              <NavLinks to="about">About Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="product">PRODUCT</NavLinks>
+              <NavLinks to="product">Basil</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="method">METHOD</NavLinks>
+              <NavLinks to="method">Method</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">CONTACT</NavLinks>
+              <NavLinks to="contact">Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>

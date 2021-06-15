@@ -1,23 +1,26 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#fffafa" : "#fff")};
-  height: 80px;
-  margin-top: -80px;
+  background: ${({ scrollNav }) => (scrollNav ? "#fffafa" : "#fffafa")};
+  height: 70px;
+  margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  color: #f7d794;
+  color: #000;
   top: 0;
   z-index: 10;
-  //opacity: ${({ scrollNav }) => (scrollNav ? "0" : "1")};
 
   @media screen and (max-width: 960px) {
     transition: 0.8s ease all;
+    height: 70px;
+    background: ${({ scrollNav }) => (scrollNav ? "#fffafa" : "transparent")};
+    color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fff")};
   }
 `;
 
@@ -25,11 +28,15 @@ export const NavbarContainer = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   height: 80px;
   position: sticky;
   z-index: 5;
   padding: 0 24px;
   max-width: 1100px;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const NavLogo = styled.div`
@@ -49,14 +56,14 @@ export const NavLogo = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   border-radius: 50px;
   opacity: 0.9;
   margin: 5px;
 `;
 
-export const MobileIcon = styled.div`
+export const MobileIcon = styled(FaBars)`
   display: none;
 
   @media screen and (max-width: 768px) {
@@ -68,7 +75,7 @@ export const MobileIcon = styled.div`
     font-size: 1.5rem;
     margin: 10px;
     cursor: pointer;
-    color: #000;
+    color: #e6e6fa;
   }
 `;
 
@@ -90,7 +97,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #ffe4e1;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -108,17 +115,15 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled.div`
   border-radius: 50px;
-  width: 70px;
-  height: 40px;
-  margin: 20px;
-  padding: 11px;
+  width: 60px;
+  height: 35px;
+  padding: 10px 14px;
   background: #c4e538;
-  white-space: nowrap;
-
+  font-weight: 50;
   color: #010606;
-  font-size: 16px;
+  font-size: 12px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -129,5 +134,15 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
+  }
+`;
+export const Text = styled.p`
+  display: none;
+  @media screen and (max-width: 768px) {
+    font-family: "IM Fell English", serif;
+    display: flex;
+    position: absolute;
+    top: 28px;
+    left: 35%;
   }
 `;

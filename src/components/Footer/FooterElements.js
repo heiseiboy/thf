@@ -112,7 +112,7 @@ export const SocialIcons = styled.div`
 
 export const SocialIconLink = styled.a`
   color: #fff;
-  font-size: 32px;
+  font-size: 40px;
 
   @media screen and (max-width: 768px) {
     margin: 0 7%;

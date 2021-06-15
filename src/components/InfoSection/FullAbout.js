@@ -8,10 +8,13 @@ import {
   TopSub,
   FullAboutText,
   Text,
-  Img,
+  ImgL,
+  ImgS,
+  ImgWrap,
 } from "./FullAboutElements";
 
-import HBT from "../images/169.jpg";
+import HBT1 from "../images/baji169.jpg";
+import HBT2 from "../images/169.jpg";
 
 const FullAbout = () => {
   return (
@@ -24,8 +27,9 @@ const FullAbout = () => {
           </FullAboutTop>
           <FullAboutText>
             <Text>
-              埼玉のとある青年たちが
-              第6次産業をはじめました。ホーリーバジル大切に育てています
+              埼玉のとある青年たちが第6次産業をはじめました。農家としてホーリーバジルを大切に育てています。
+              <br />
+              ホーリーバジル
               <br />
               通称　Tulsi(トゥルシー)
               <br />
@@ -33,7 +37,10 @@ const FullAbout = () => {
           </FullAboutText>
         </FullAboutWrapper>
       </FullAboutContainer>
-      <Img src={HBT} alt="hbt" />
+      <ImgWrap>
+        {/* <ImgL src={HBT1} alt="hbt" /> */}
+        <ImgS src={HBT2} alt="hbt2" />
+      </ImgWrap>
     </>
   );
 };

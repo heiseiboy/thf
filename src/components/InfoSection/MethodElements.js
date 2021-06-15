@@ -16,6 +16,7 @@ export const MethodContainer = styled.div`
     background: #fff;
     background-image: none;
     height: 45vh;
+    margin-bottom: 5%;
   }
 `;
 
