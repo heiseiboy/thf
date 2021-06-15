@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import dryBasil from "../images/dryBasil.jpg";
 
-export const MethodContainer = styled.div`
+export const ProductContainer = styled.div`
   display: flex;
   position: static;
   width: 100%;
@@ -19,7 +19,7 @@ export const MethodContainer = styled.div`
   }
 `;
 
-export const MethodWrapper = styled.div`
+export const ProductWrapper = styled.div`
   display: flex;
   width: 100%;
   height: 80%;
@@ -37,7 +37,7 @@ export const MethodWrapper = styled.div`
   }
 `;
 
-export const MethodTop = styled.div`
+export const ProductTop = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -68,7 +68,7 @@ export const TopSub = styled.p`
   }
 `;
 
-export const MethodText = styled.div`
+export const ProductText = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
@@ -93,11 +93,21 @@ export const Text = styled.p`
   }
 `;
 
-export const Img = styled.img`
-  display: none;
+export const ProductImg = styled.div`
+  display: flex;
+  flex-direction: row;
+
   @media screen and (max-width: 768px) {
-    display: flex;
-    width: 100%;
-    height: auto;
+    display: 55vh;
+    width: 100vw;
   }
+`;
+
+export const ImgP = styled.img`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  width: 46vw;
+  margin: 2% 2% 2% 2%;
 `;

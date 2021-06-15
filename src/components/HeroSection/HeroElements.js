@@ -77,14 +77,10 @@ export const HeroH1 = styled.h1`
   color: #fff;
   font-size: 48px;
   text-align: center;
-  font-family: "TsukuARdGothic-Regular", sans-serif;
+  font-family: "Baloo Tammudu 2", cursive;
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 24px;
   }
 `;
 

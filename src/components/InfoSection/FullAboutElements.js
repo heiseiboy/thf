@@ -81,6 +81,11 @@ export const Text = styled.p`
 `;
 
 export const Img = styled.img`
-  width: 90%;
-  margin: 5% 5%;
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    width: 90%;
+    margin: 5% 5%;
+  }
 `;

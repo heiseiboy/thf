@@ -7,6 +7,7 @@ import InfoSection2 from "../InfoSection/section2";
 import InfoSection3 from "../InfoSection/section3";
 import FullAbout from "../InfoSection/FullAbout";
 import Method from "../InfoSection/Method";
+import Product from "../InfoSection/Product";
 import { HomeObjOne, HomeObjThree, HomeObjTwo } from "../InfoSection/Data";
 import ContactSection from "../InfoSection/ContactSection";
 import Footer from "../Footer";
@@ -24,6 +25,7 @@ const Home = () => {
       <HeroSection />
       {/* <InfoSection {...HomeObjOne} /> */}
       <FullAbout />
+      <Product />
       <Method />
       {/* <InfoSection2 {...HomeObjTwo} /> */}
       {/* <InfoSection3 {...HomeObjThree} /> */}
