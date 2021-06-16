@@ -4,7 +4,7 @@ import { Link as LinkR } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#fffafa" : "#fffafa")};
+  background: ${({ scrollNav }) => (scrollNav ? "#fffafa" : "transparent")};
   height: 70px;
   margin-top: -70px;
   display: flex;
@@ -12,9 +12,9 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  color: #000;
   top: 0;
   z-index: 10;
+  transition: 0.8s ease all;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s ease all;
@@ -97,7 +97,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #000;
+  color: #718093;
   display: flex;
   align-items: center;
   text-decoration: none;

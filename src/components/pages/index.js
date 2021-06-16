@@ -5,6 +5,7 @@ import HeroSection from "../HeroSection";
 import FullAbout from "../InfoSection/FullAbout";
 import Method from "../InfoSection/Method";
 import Product from "../InfoSection/Product";
+import Drink from "../InfoSection/Drink";
 import ContactSection from "../InfoSection/ContactSection";
 import Footer from "../Footer";
 
@@ -22,6 +23,7 @@ const Home = () => {
       <FullAbout />
       <Product />
       <Method />
+      <Drink />
       <ContactSection />
       <Footer />
     </>

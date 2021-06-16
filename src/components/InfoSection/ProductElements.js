@@ -96,7 +96,7 @@ export const ProductText = styled.div`
 
 export const Text = styled.p`
   font-size: 16px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   line-height: 36px;
   opacity: 0.8;
   color: #000;
