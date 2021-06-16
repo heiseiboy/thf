@@ -5,10 +5,7 @@ export const MethodContainer = styled.div`
   display: flex;
   position: static;
   width: 100%;
-  height: calc(100vh - 80px);
-  background-image: url(${dryBasil});
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 45vh;
   z-index: 1;
   opacity: 0.9;
 
@@ -24,11 +21,11 @@ export const MethodWrapper = styled.div`
   display: flex;
   width: 100%;
   height: 80%;
-  margin: 3.5% 10%;
+  margin: 0% 10%;
   background: transparent;
   align-items: center;
   flex-direction: column;
-  color: #fff;
+  color: #000;
 
   @media screen and (max-width: 768px) {
     background: #fff;
@@ -95,10 +92,16 @@ export const Text = styled.p`
 `;
 
 export const Img = styled.img`
-  display: none;
+  display: flex;
+  height: 80vh;
+  width: 80vw;
+  margin: 10 auto;
+  padding-top: 5%;
+
   @media screen and (max-width: 768px) {
     display: flex;
     width: 100%;
     height: auto;
+    margin: 0;
   }
 `;

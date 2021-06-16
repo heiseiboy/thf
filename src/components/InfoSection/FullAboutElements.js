@@ -62,7 +62,7 @@ export const FullAboutText = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 5% 30%;
+  margin: 5% 33%;
 
   @media screen and (max-width: 768px) {
     padding: 10% 10%;

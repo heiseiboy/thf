@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 import Top from "../images/purple169tate.jpg";
-import Top2 from "../images/dryBasil.jpg";
+import Top2 from "../images/shouhin.jpg";
 
 export const HeroContainer = styled.div`
   display: flex;

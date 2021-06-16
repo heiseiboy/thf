@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="about">About Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="product">Basil</NavLinks>
+              <NavLinks to="basil">Basil</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="method">Method</NavLinks>
@@ -65,7 +65,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink onClick={thf}>SHOP</NavBtnLink>
+            <NavBtnLink onClick={thf}>購入はこちら</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

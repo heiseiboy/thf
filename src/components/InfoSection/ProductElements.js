@@ -5,11 +5,13 @@ export const TopContainer = styled.div`
   display: flex;
   flex-direction: row;
   margin: 10% 0;
-  width: 100%;
+  max-width: 100vw;
+  width: 80vw;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
     margin: 0;
+    width: 100%;
   }
 `;
 
@@ -18,7 +20,6 @@ export const ProductContainer = styled.div`
   width: 100%;
   height: 70vh;
   opacity: 0.9;
-  padding: 15% 0;
 
   @media screen and (max-width: 768px) {
     background: #fff;
@@ -30,8 +31,8 @@ export const ProductContainer = styled.div`
 export const ProductWrapper = styled.div`
   display: flex;
   width: 100%;
-  height: 80%;
-  margin: 3.5% 10%;
+  height: 70%;
+  margin: 3.5% 2%%;
   background: transparent;
   align-items: center;
   flex-direction: column;
@@ -85,7 +86,7 @@ export const ProductText = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 3% 30%;
+  margin: 3% 29%;
 
   @media screen and (max-width: 768px) {
     padding: 10% 4%;
@@ -110,10 +111,9 @@ export const Text = styled.p`
 export const ProductImg = styled.div`
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 40%;
   height: 50vh;
   opacity: 0.8;
-  margin: 0 20% 0 0;
 
   @media screen and (max-width: 768px) {
     height: auto;

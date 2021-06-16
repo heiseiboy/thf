@@ -21,14 +21,14 @@ import P169 from "../images/purple169tate.jpg";
 const Product = () => {
   return (
     <>
-      <TopContainer>
-        <ProductContainer id="basil">
+      <TopContainer id="basil">
+        <ProductContainer>
           <ProductWrapper>
             <ProductTop>
               <TopH1>
                 葉っぱの裏の<span>紫色</span>は
                 <br />
-                高品質の証{" "}
+                高品質の証
               </TopH1>
               <TopSub></TopSub>
             </ProductTop>
