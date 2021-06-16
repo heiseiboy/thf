@@ -7,7 +7,7 @@ import {
   SubText,
 } from "./ContactElements";
 
-import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 
 const ContactSection = () => {
   return (
@@ -18,10 +18,6 @@ const ContactSection = () => {
           <AiOutlineMail />
         </Icon>
         <p>thope.tulsi@gmail.com</p>
-        {/* <Icon>
-          <AiFillPhone />
-          <p>000-1234-5678</p>
-        </Icon> */}
         <SubText>
           メールにお名前とお問い合わせ内容を載せて
           <br />

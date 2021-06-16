@@ -15,7 +15,6 @@ import {
 
 import nidasi1 from "../images/nidasi1.jpg";
 import nidasi2 from "../images/nidasi2.jpg";
-import P169 from "../images/purple169tate.jpg";
 
 const Drink = () => {
   return (

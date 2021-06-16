@@ -8,12 +8,12 @@ import {
   TopSub,
   FullAboutText,
   Text,
-  ImgL,
+  // ImgL,
   ImgS,
   ImgWrap,
 } from "./FullAboutElements";
 
-import HBT1 from "../images/baji169.jpg";
+// import HBT1 from "../images/baji169.jpg";
 import HBT2 from "../images/169.jpg";
 
 const FullAbout = () => {

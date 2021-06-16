@@ -1,10 +1,12 @@
 import React from "react";
-import { FaInstagram, FaTwitter, FaYoutube, FaLinkedin } from "react-icons/fa";
+import {
+  FaInstagram /*FaTwitter, FaYoutube, FaLinkedin*/,
+} from "react-icons/fa";
 import {
   FooterContainer,
   FooterLinksContainer,
-  FooterLink,
-  FooterLinksItems,
+  // FooterLink,
+  // FooterLinksItems,
   FooterLinksWrapper,
   FooterWrap,
   SocialIconLink,

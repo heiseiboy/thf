@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import dryBasil from "../images/dryBasil.jpg";
 
 export const TopContainer = styled.div`
   display: flex;
