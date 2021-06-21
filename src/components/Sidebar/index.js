@@ -15,6 +15,10 @@ const Sidebar = ({ isOpen, toggle }) => {
     window.open("https://t-hope.store");
   };
 
+  const thfbase = () => {
+    window.open("https://thopefarm.base.shop/");
+  };
+
   return (
     <>
       <SidebarContainer isOpen={isOpen}>
@@ -37,7 +41,10 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarLink>
           </SidebarMenu>
           <SidebarWrap>
-            <SidebarRoute onClick={thf}>SHOP HERE</SidebarRoute>
+            <SidebarRoute onClick={thf}>購入→Shopify</SidebarRoute>
+          </SidebarWrap>
+          <SidebarWrap>
+            <SidebarRoute onClick={thfbase}>購入→BASE</SidebarRoute>
           </SidebarWrap>
         </SidebarWrapper>
       </SidebarContainer>

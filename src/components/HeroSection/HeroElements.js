@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
 
 export const HeroBg = styled.div`
   position: absolute;
-  top: 80px;
+  top: 70px;
   right: 0;
   bottom: 0;
   left: 0;

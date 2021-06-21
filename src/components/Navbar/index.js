@@ -40,6 +40,11 @@ const Navbar = ({ toggle }) => {
   const thf = () => {
     window.open("https://t-hope.store");
   };
+
+  const thfbase = () => {
+    window.open("https://thopefarm.base.shop/");
+  };
+
   return (
     <>
       <Nav scrollNav={scrollNav}>
@@ -65,7 +70,10 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink onClick={thf}>購入はこちら</NavBtnLink>
+            <NavBtnLink onClick={thf}>購入→Shopify</NavBtnLink>
+          </NavBtn>
+          <NavBtn>
+            <NavBtnLink onClick={thfbase}>購入→BASE</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
