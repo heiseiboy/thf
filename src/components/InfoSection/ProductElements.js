@@ -22,8 +22,7 @@ export const ProductContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     background: #fff;
-    height: 45vh;
-    padding: 0;
+    height: 50vh;
   }
 `;
 
@@ -31,7 +30,7 @@ export const ProductWrapper = styled.div`
   display: flex;
   width: 100%;
   height: 70%;
-  margin: 3.5% 2%%;
+  margin: 3.5% 2%;
   background: transparent;
   align-items: center;
   flex-direction: column;
@@ -52,7 +51,7 @@ export const ProductTop = styled.div`
   margin-top: 5%;
 
   @media screen and (max-width: 768px) {
-    margin-top: 10%;
+    margin-top: 0%;
   }
 `;
 
@@ -67,7 +66,7 @@ export const TopH1 = styled.h1`
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 `;
 
@@ -130,7 +129,7 @@ export const ImgP = styled.img`
     height: 100%;
     object-fit: contain;
     width: 46vw;
-    margin: 2% 2% 2% 2%;
+    margin: 0% 2% 2% 2%;
   }
 `;
 export const ImgP2 = styled.img`
@@ -142,7 +141,7 @@ export const ImgP2 = styled.img`
     height: 100%;
     object-fit: contain;
     width: 46vw;
-    margin: 2% 2% 2% 2%;
+    margin: 0% 2% 2% 2%;
   }
 `;
 export const ImgP3 = styled.img`

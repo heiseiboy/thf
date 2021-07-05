@@ -11,8 +11,10 @@ export const MethodContainer = styled.div`
   @media screen and (max-width: 768px) {
     background: #fff;
     background-image: none;
-    height: 45vh;
+    height: 55vh;
     margin-bottom: 5%;
+    display: flex;
+    align-items: center;
   }
 `;
 
@@ -41,7 +43,7 @@ export const MethodTop = styled.div`
   margin-top: 5%;
 
   @media screen and (max-width: 768px) {
-    margin-top: 10%;
+    margin-top: 0%;
   }
 `;
 
@@ -72,8 +74,9 @@ export const MethodText = styled.div`
   margin: 3% 30%;
 
   @media screen and (max-width: 768px) {
-    padding: 10% 10%;
+    padding: 5% 10%;
     margin: 0;
+    height: 70%;
   }
 `;
 
@@ -102,5 +105,6 @@ export const Img = styled.img`
     width: 100%;
     height: auto;
     margin: 0;
+    padding: 0;
   }
 `;

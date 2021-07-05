@@ -19,6 +19,10 @@ const HeroSection = () => {
     window.open("https://t-hope.store");
   };
 
+  const thfbase = () => {
+    window.open("https://thopefarm.base.shop/");
+  };
+
   const onHover = () => {
     setHover(!hover);
   };
@@ -40,7 +44,18 @@ const HeroSection = () => {
               dark={true}
               onClick={thf}
             >
-              購入はこちら{hover ? <ArrowForward /> : <ArrowRight />}
+              Shopifyで購入{hover ? <ArrowForward /> : <ArrowRight />}
+            </Button>
+          </HeroBtnWrapper>
+          <HeroBtnWrapper>
+            <Button
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary={true}
+              dark={true}
+              onClick={thfbase}
+            >
+              BASEで購入{hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
         </HeroContent>

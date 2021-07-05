@@ -71,7 +71,7 @@ export const HeroContent = styled.div`
 
   @media screen and (max-width: 768px) {
     display: flex;
-    top: 73.5%;
+    top: 70.5%;
     left: 3%;
   }
 `;
@@ -115,13 +115,10 @@ export const HeroP = styled.p`
 `;
 
 export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
+  display: none;
 
   @media screen and (max-width: 768px) {
+    display: flex;
     margin-top: 5px;
   }
 `;

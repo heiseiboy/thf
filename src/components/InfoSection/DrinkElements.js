@@ -22,8 +22,10 @@ export const DrinkContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     background: #fff;
-    height: 45vh;
+    height: 55vh;
     padding: 0;
+    display: flex;
+    align-items: center;
   }
 `;
 
@@ -52,7 +54,6 @@ export const DrinkTop = styled.div`
   margin-top: 5%;
 
   @media screen and (max-width: 768px) {
-    margin-top: 10%;
   }
 `;
 
@@ -87,7 +88,7 @@ export const DrinkText = styled.div`
   margin: 5% 2%;
 
   @media screen and (max-width: 768px) {
-    padding: 10% 4%;
+    padding: 10% 4% 0 4%;
     margin: 0;
   }
 `;
