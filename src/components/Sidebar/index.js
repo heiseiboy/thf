@@ -36,6 +36,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLink to="method" onClick={toggle}>
               Method
             </SidebarLink>
+            <SidebarLink to="honey" onClick={toggle}>
+              Honey
+            </SidebarLink>
             <SidebarLink to="contact" onClick={toggle}>
               Contact
             </SidebarLink>

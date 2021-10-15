@@ -8,6 +8,7 @@ import Product from "../InfoSection/Product";
 import Drink from "../InfoSection/Drink";
 import ContactSection from "../InfoSection/ContactSection";
 import Footer from "../Footer";
+import Honey from "../Honey/Honey";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
       <Product />
       <Method />
       <Drink />
+      <Honey />
       <ContactSection />
       <Footer />
     </>
